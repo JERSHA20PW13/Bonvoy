@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5ad0a9d3c925e3d660f7240809aa9ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a5ad0a9d3c925e3d660f7240809aa9ce" ></div>
+        
+</body>
+<script>    
+    
+            var map_a5ad0a9d3c925e3d660f7240809aa9ce = L.map(
+                "map_a5ad0a9d3c925e3d660f7240809aa9ce",
+                {
+                    center: [28.6667, 77.2167],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_931aee0984f17b91b997afab1959c4eb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a5ad0a9d3c925e3d660f7240809aa9ce);
+        
+    
+            var marker_d1345b181d1564d20f5b539d336391bd = L.marker(
+                [28.6667, 77.2167],
+                {}
+            ).addTo(map_a5ad0a9d3c925e3d660f7240809aa9ce);
+        
+    
+        var popup_ffa680be4b2695cf700be23e95a16557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98628ab6b9054f88cce43b21c4799c97 = $(`<div id="html_98628ab6b9054f88cce43b21c4799c97" style="width: 100.0%; height: 100.0%;">{'_id': ObjectId('635a0cf895725d239d90fe11'), 'City': 'Delhi', 'Lat': 28.6667, 'Lng': 77.2167, 'Max Temp': 77.09, 'Humidity': 61, 'Cloudiness': 0, 'Wind Speed': 4.61, 'Country': 'IN'}</div>`)[0];
+                popup_ffa680be4b2695cf700be23e95a16557.setContent(html_98628ab6b9054f88cce43b21c4799c97);
+            
+        
+
+        marker_d1345b181d1564d20f5b539d336391bd.bindPopup(popup_ffa680be4b2695cf700be23e95a16557)
+        ;
+
+        
+    
+    
+            var marker_d749b86b2b664b9c5f0d7fabffc867c9 = L.marker(
+                [28.6667, 77.4333],
+                {}
+            ).addTo(map_a5ad0a9d3c925e3d660f7240809aa9ce);
+        
+    
+        var popup_6e6687288217f01ff09a547fb8af4105 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77e2fba241bd71136ea20e36ad805ae2 = $(`<div id="html_77e2fba241bd71136ea20e36ad805ae2" style="width: 100.0%; height: 100.0%;">{'_id': ObjectId('635a0d6895725d239d90ff50'), 'City': 'Ghāziābād', 'Lat': 28.6667, 'Lng': 77.4333, 'Max Temp': 77.14, 'Humidity': 33, 'Cloudiness': 0, 'Wind Speed': 2.51, 'Country': 'IN'}</div>`)[0];
+                popup_6e6687288217f01ff09a547fb8af4105.setContent(html_77e2fba241bd71136ea20e36ad805ae2);
+            
+        
+
+        marker_d749b86b2b664b9c5f0d7fabffc867c9.bindPopup(popup_6e6687288217f01ff09a547fb8af4105)
+        ;
+
+        
+    
+    
+            var marker_305a8b92dfca6fec58bf81d01f5da1d4 = L.marker(
+                [28.6128, 77.2311],
+                {}
+            ).addTo(map_a5ad0a9d3c925e3d660f7240809aa9ce);
+        
+    
+        var popup_72747635ea24202cc91b4048e11d1632 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b10e11991a8567aa99bfef12586aa1f4 = $(`<div id="html_b10e11991a8567aa99bfef12586aa1f4" style="width: 100.0%; height: 100.0%;">{'_id': ObjectId('635a0dc895725d239d9100ee'), 'City': 'New Delhi', 'Lat': 28.6128, 'Lng': 77.2311, 'Max Temp': 77.16, 'Humidity': 61, 'Cloudiness': 0, 'Wind Speed': 4.61, 'Country': 'IN'}</div>`)[0];
+                popup_72747635ea24202cc91b4048e11d1632.setContent(html_b10e11991a8567aa99bfef12586aa1f4);
+            
+        
+
+        marker_305a8b92dfca6fec58bf81d01f5da1d4.bindPopup(popup_72747635ea24202cc91b4048e11d1632)
+        ;
+
+        
+    
+    
+            var marker_ee8b1c9d81964a087b7b24e6ac36f91a = L.marker(
+                [28.9833, 77.0167],
+                {}
+            ).addTo(map_a5ad0a9d3c925e3d660f7240809aa9ce);
+        
+    
+        var popup_c991d364751a3f91ef0d7854a24bc89c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65694f526cc0ec76bd8d8a8fcf21cc5e = $(`<div id="html_65694f526cc0ec76bd8d8a8fcf21cc5e" style="width: 100.0%; height: 100.0%;">{'_id': ObjectId('635a0fb995725d239d9106c4'), 'City': 'Sonīpat', 'Lat': 28.9833, 'Lng': 77.0167, 'Max Temp': 77, 'Humidity': 34, 'Cloudiness': 0, 'Wind Speed': 1.25, 'Country': 'IN'}</div>`)[0];
+                popup_c991d364751a3f91ef0d7854a24bc89c.setContent(html_65694f526cc0ec76bd8d8a8fcf21cc5e);
+            
+        
+
+        marker_ee8b1c9d81964a087b7b24e6ac36f91a.bindPopup(popup_c991d364751a3f91ef0d7854a24bc89c)
+        ;
+
+        
+    
+    
+            var marker_40236c6811d4c6c8b024400397e13226 = L.marker(
+                [28.4667, 77.0333],
+                {}
+            ).addTo(map_a5ad0a9d3c925e3d660f7240809aa9ce);
+        
+    
+        var popup_41ec2e3795cde9994dc48186a84900d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89f0778c299938c8adf9e0ad4a22b28c = $(`<div id="html_89f0778c299938c8adf9e0ad4a22b28c" style="width: 100.0%; height: 100.0%;">{'_id': ObjectId('635a103d95725d239d910862'), 'City': 'Gurgaon', 'Lat': 28.4667, 'Lng': 77.0333, 'Max Temp': 77.04, 'Humidity': 61, 'Cloudiness': 0, 'Wind Speed': 4.61, 'Country': 'IN'}</div>`)[0];
+                popup_41ec2e3795cde9994dc48186a84900d8.setContent(html_89f0778c299938c8adf9e0ad4a22b28c);
+            
+        
+
+        marker_40236c6811d4c6c8b024400397e13226.bindPopup(popup_41ec2e3795cde9994dc48186a84900d8)
+        ;
+
+        
+    
+</script>

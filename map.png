@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6dfe242df30a109b2f339d9a9b76bba8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6dfe242df30a109b2f339d9a9b76bba8" ></div>
+        
+</body>
+<script>    
+    
+            var map_6dfe242df30a109b2f339d9a9b76bba8 = L.map(
+                "map_6dfe242df30a109b2f339d9a9b76bba8",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c74955479dcd5efcafbc9b96917bf79b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+            var marker_16d9fd5e40f0de1049590c0259faa3bb = L.marker(
+                [18.4167, -64.6167],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_55169c040b1c1520b821904859d54797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8ff17b8ca71f524b4b687839e109e37 = $(`<div id="html_e8ff17b8ca71f524b4b687839e109e37" style="width: 100.0%; height: 100.0%;">City                    Road Town Lat                       18.4167 Lng                      -64.6167 Max Temp                    78.89 Humidity                       80 Cloudiness                    100 Wind Speed                  16.64 Country                        VG Date          2022-10-27 03:22:57 Name: 0, dtype: object</div>`)[0];
+                popup_55169c040b1c1520b821904859d54797.setContent(html_e8ff17b8ca71f524b4b687839e109e37);
+            
+        
+
+        marker_16d9fd5e40f0de1049590c0259faa3bb.bindPopup(popup_55169c040b1c1520b821904859d54797)
+        ;
+
+        
+    
+    
+            var marker_ca4b6819707c802fe44b0b5d0837b36d = L.marker(
+                [22.0752, -159.319],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_103e2380c53ecc0204b23a8c7b96c12f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adea8bd060c22423ee8e016bd8b320e5 = $(`<div id="html_adea8bd060c22423ee8e016bd8b320e5" style="width: 100.0%; height: 100.0%;">City                        Kapaa Lat                       22.0752 Lng                      -159.319 Max Temp                    82.38 Humidity                       79 Cloudiness                     20 Wind Speed                   13.8 Country                        US Date          2022-10-27 03:22:58 Name: 1, dtype: object</div>`)[0];
+                popup_103e2380c53ecc0204b23a8c7b96c12f.setContent(html_adea8bd060c22423ee8e016bd8b320e5);
+            
+        
+
+        marker_ca4b6819707c802fe44b0b5d0837b36d.bindPopup(popup_103e2380c53ecc0204b23a8c7b96c12f)
+        ;
+
+        
+    
+    
+            var marker_6b0a0176287cf025086f2d611cf16040 = L.marker(
+                [-9.8, -139.0333],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_94d5385d6f6efb52684af0d0c20c1790 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84ca2d9b784d54e417caf5208ce35474 = $(`<div id="html_84ca2d9b784d54e417caf5208ce35474" style="width: 100.0%; height: 100.0%;">City                       Atuona Lat                          -9.8 Lng                     -139.0333 Max Temp                     77.2 Humidity                       77 Cloudiness                     14 Wind Speed                  19.06 Country                        PF Date          2022-10-27 03:22:58 Name: 2, dtype: object</div>`)[0];
+                popup_94d5385d6f6efb52684af0d0c20c1790.setContent(html_84ca2d9b784d54e417caf5208ce35474);
+            
+        
+
+        marker_6b0a0176287cf025086f2d611cf16040.bindPopup(popup_94d5385d6f6efb52684af0d0c20c1790)
+        ;
+
+        
+    
+    
+            var marker_cd71aba9ac85c7ab6e3039ba63500302 = L.marker(
+                [-0.6, 73.0833],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_0bca63c5df0b8fd248f0205c193ffce6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deb0114e7df05785dff01229c87e791f = $(`<div id="html_deb0114e7df05785dff01229c87e791f" style="width: 100.0%; height: 100.0%;">City                    Hithadhoo Lat                          -0.6 Lng                       73.0833 Max Temp                    82.31 Humidity                       75 Cloudiness                     29 Wind Speed                    7.2 Country                        MV Date          2022-10-27 03:22:59 Name: 3, dtype: object</div>`)[0];
+                popup_0bca63c5df0b8fd248f0205c193ffce6.setContent(html_deb0114e7df05785dff01229c87e791f);
+            
+        
+
+        marker_cd71aba9ac85c7ab6e3039ba63500302.bindPopup(popup_0bca63c5df0b8fd248f0205c193ffce6)
+        ;
+
+        
+    
+    
+            var marker_60e80425c732a4a4b7101123fbf7829a = L.marker(
+                [15.85, -97.0667],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_af89c76bd2ef636ef072690ed1e35c25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdfe73da2630f3523e2c9669ec4b435c = $(`<div id="html_bdfe73da2630f3523e2c9669ec4b435c" style="width: 100.0%; height: 100.0%;">City             Puerto Escondido Lat                         15.85 Lng                      -97.0667 Max Temp                    81.43 Humidity                       61 Cloudiness                     40 Wind Speed                   3.44 Country                        MX Date          2022-10-27 03:22:59 Name: 4, dtype: object</div>`)[0];
+                popup_af89c76bd2ef636ef072690ed1e35c25.setContent(html_bdfe73da2630f3523e2c9669ec4b435c);
+            
+        
+
+        marker_60e80425c732a4a4b7101123fbf7829a.bindPopup(popup_af89c76bd2ef636ef072690ed1e35c25)
+        ;
+
+        
+    
+    
+            var marker_fdd01fe7b1ad60d9df1866305efad93c = L.marker(
+                [-0.9492, 100.3543],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_6b49b4ea13b32e2ede4795116011cce6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db5ecae9449334217d52cab1c1c1271e = $(`<div id="html_db5ecae9449334217d52cab1c1c1271e" style="width: 100.0%; height: 100.0%;">City                       Padang Lat                       -0.9492 Lng                      100.3543 Max Temp                    86.05 Humidity                       70 Cloudiness                     73 Wind Speed                   3.31 Country                        ID Date          2022-10-27 03:19:45 Name: 5, dtype: object</div>`)[0];
+                popup_6b49b4ea13b32e2ede4795116011cce6.setContent(html_db5ecae9449334217d52cab1c1c1271e);
+            
+        
+
+        marker_fdd01fe7b1ad60d9df1866305efad93c.bindPopup(popup_6b49b4ea13b32e2ede4795116011cce6)
+        ;
+
+        
+    
+    
+            var marker_6055afed33fe0b63396ff3bd4703cf4e = L.marker(
+                [18.217, -63.0578],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_04a5ac05c12b58c2445b1d4fa5b063ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f38d64d3c921e6108100ca1b520989ec = $(`<div id="html_f38d64d3c921e6108100ca1b520989ec" style="width: 100.0%; height: 100.0%;">City                   The Valley Lat                        18.217 Lng                      -63.0578 Max Temp                     83.1 Humidity                       75 Cloudiness                    100 Wind Speed                  20.92 Country                        AI Date          2022-10-27 03:23:00 Name: 6, dtype: object</div>`)[0];
+                popup_04a5ac05c12b58c2445b1d4fa5b063ac.setContent(html_f38d64d3c921e6108100ca1b520989ec);
+            
+        
+
+        marker_6055afed33fe0b63396ff3bd4703cf4e.bindPopup(popup_04a5ac05c12b58c2445b1d4fa5b063ac)
+        ;
+
+        
+    
+    
+            var marker_646e14d6b831cc6d1bdee63d48e79632 = L.marker(
+                [9.4942, 50.8122],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_39aade1584a198f1013c0b5f55f23316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4a9cdbfe8ce14bdf21cdb746a896637 = $(`<div id="html_a4a9cdbfe8ce14bdf21cdb746a896637" style="width: 100.0%; height: 100.0%;">City                  Bandarbeyla Lat                        9.4942 Lng                       50.8122 Max Temp                    78.22 Humidity                       85 Cloudiness                     51 Wind Speed                   7.36 Country                        SO Date          2022-10-27 03:23:00 Name: 7, dtype: object</div>`)[0];
+                popup_39aade1584a198f1013c0b5f55f23316.setContent(html_a4a9cdbfe8ce14bdf21cdb746a896637);
+            
+        
+
+        marker_646e14d6b831cc6d1bdee63d48e79632.bindPopup(popup_39aade1584a198f1013c0b5f55f23316)
+        ;
+
+        
+    
+    
+            var marker_b136b84db96130e5bc87d35b169d6cdf = L.marker(
+                [19.8, 85.85],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_50af39e361fcfc6f3238309c6d8e4eef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_938c6ca636052e780ca4cd9d769e1821 = $(`<div id="html_938c6ca636052e780ca4cd9d769e1821" style="width: 100.0%; height: 100.0%;">City                         Puri Lat                          19.8 Lng                         85.85 Max Temp                    81.12 Humidity                       66 Cloudiness                      0 Wind Speed                   6.15 Country                        IN Date          2022-10-27 03:23:00 Name: 8, dtype: object</div>`)[0];
+                popup_50af39e361fcfc6f3238309c6d8e4eef.setContent(html_938c6ca636052e780ca4cd9d769e1821);
+            
+        
+
+        marker_b136b84db96130e5bc87d35b169d6cdf.bindPopup(popup_50af39e361fcfc6f3238309c6d8e4eef)
+        ;
+
+        
+    
+    
+            var marker_ac433cb153f9011d2198c4d25cdefec3 = L.marker(
+                [26.4833, 76.7167],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_8477d1e471c6771d18a7187f780bedf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0741705cc19ab265ed8b19232b3242ca = $(`<div id="html_0741705cc19ab265ed8b19232b3242ca" style="width: 100.0%; height: 100.0%;">City                     Gangapur Lat                       26.4833 Lng                       76.7167 Max Temp                    75.24 Humidity                       43 Cloudiness                      0 Wind Speed                   8.21 Country                        IN Date          2022-10-27 03:21:19 Name: 9, dtype: object</div>`)[0];
+                popup_8477d1e471c6771d18a7187f780bedf2.setContent(html_0741705cc19ab265ed8b19232b3242ca);
+            
+        
+
+        marker_ac433cb153f9011d2198c4d25cdefec3.bindPopup(popup_8477d1e471c6771d18a7187f780bedf2)
+        ;
+
+        
+    
+    
+            var marker_1fda16c404ca9767862ef53ba1e96cff = L.marker(
+                [-8.112, 115.0882],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_d88a978a1a3f7b91251bddbafd0b9680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5881d5211ca90bb0a7f170d7d2b3fab = $(`<div id="html_e5881d5211ca90bb0a7f170d7d2b3fab" style="width: 100.0%; height: 100.0%;">City                    Singaraja Lat                        -8.112 Lng                      115.0882 Max Temp                    82.29 Humidity                       76 Cloudiness                     98 Wind Speed                   1.68 Country                        ID Date          2022-10-27 03:23:01 Name: 10, dtype: object</div>`)[0];
+                popup_d88a978a1a3f7b91251bddbafd0b9680.setContent(html_e5881d5211ca90bb0a7f170d7d2b3fab);
+            
+        
+
+        marker_1fda16c404ca9767862ef53ba1e96cff.bindPopup(popup_d88a978a1a3f7b91251bddbafd0b9680)
+        ;
+
+        
+    
+    
+            var marker_f7f7e54a912d4d98d5e575bcbc6e26a1 = L.marker(
+                [-0.6136, -47.3561],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_1d69156811126960e3c88158bc5e41d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2c276318b68e651325780b90d7cef5e = $(`<div id="html_f2c276318b68e651325780b90d7cef5e" style="width: 100.0%; height: 100.0%;">City                  Salinopolis Lat                       -0.6136 Lng                      -47.3561 Max Temp                    79.93 Humidity                       77 Cloudiness                    100 Wind Speed                  11.27 Country                        BR Date          2022-10-27 03:23:01 Name: 11, dtype: object</div>`)[0];
+                popup_1d69156811126960e3c88158bc5e41d0.setContent(html_f2c276318b68e651325780b90d7cef5e);
+            
+        
+
+        marker_f7f7e54a912d4d98d5e575bcbc6e26a1.bindPopup(popup_1d69156811126960e3c88158bc5e41d0)
+        ;
+
+        
+    
+    
+            var marker_00f5f510c0742cae1958ff055ac2a1e5 = L.marker(
+                [-7.125, -34.9322],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_9663a7c77fbe81c00d2397bc52455743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_244f7b15239ee2b2dbc18050ba86c93c = $(`<div id="html_244f7b15239ee2b2dbc18050ba86c93c" style="width: 100.0%; height: 100.0%;">City                       Bayeux Lat                        -7.125 Lng                      -34.9322 Max Temp                    77.63 Humidity                       83 Cloudiness                     20 Wind Speed                   3.44 Country                        BR Date          2022-10-27 03:23:02 Name: 12, dtype: object</div>`)[0];
+                popup_9663a7c77fbe81c00d2397bc52455743.setContent(html_244f7b15239ee2b2dbc18050ba86c93c);
+            
+        
+
+        marker_00f5f510c0742cae1958ff055ac2a1e5.bindPopup(popup_9663a7c77fbe81c00d2397bc52455743)
+        ;
+
+        
+    
+    
+            var marker_1433c1ea67c01fc960965988c0425e5d = L.marker(
+                [18.9333, 84.6],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_2d5a54abc5a690d3d077703860aa6158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66e305cf53974f64db933337e5457928 = $(`<div id="html_66e305cf53974f64db933337e5457928" style="width: 100.0%; height: 100.0%;">City                      Sompeta Lat                       18.9333 Lng                          84.6 Max Temp                     79.2 Humidity                       67 Cloudiness                      0 Wind Speed                   4.65 Country                        IN Date          2022-10-27 03:23:02 Name: 13, dtype: object</div>`)[0];
+                popup_2d5a54abc5a690d3d077703860aa6158.setContent(html_66e305cf53974f64db933337e5457928);
+            
+        
+
+        marker_1433c1ea67c01fc960965988c0425e5d.bindPopup(popup_2d5a54abc5a690d3d077703860aa6158)
+        ;
+
+        
+    
+    
+            var marker_2fcd0952fd58a469073c3d680aff9c73 = L.marker(
+                [8.1333, 77.3],
+                {}
+            ).addTo(map_6dfe242df30a109b2f339d9a9b76bba8);
+        
+    
+        var popup_0cb70a50446c4fa0934c7c27abea3776 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b9cc7bc83c7844e32c28f3a172177b6 = $(`<div id="html_4b9cc7bc83c7844e32c28f3a172177b6" style="width: 100.0%; height: 100.0%;">City              Manavalakurichi Lat                        8.1333 Lng                          77.3 Max Temp                    81.66 Humidity                       70 Cloudiness                     35 Wind Speed                   2.66 Country                        IN Date          2022-10-27 03:23:02 Name: 14, dtype: object</div>`)[0];
+                popup_0cb70a50446c4fa0934c7c27abea3776.setContent(html_4b9cc7bc83c7844e32c28f3a172177b6);
+            
+        
+
+        marker_2fcd0952fd58a469073c3d680aff9c73.bindPopup(popup_0cb70a50446c4fa0934c7c27abea3776)
+        ;
+
+        
+    
+</script>

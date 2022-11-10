@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resort {
+    width: 90%;
+    height: 500px;
+    top: 110px;
+    border-radius: 25px;
+    background-image: url("../Images/resort.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.resort > h1 {
+    line-height: 1.5em;
+    font-size: 3rem;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 500px;
+    padding: 2em;
+    border-radius: 25px;
+    background-image: linear-gradient(to right,
+    rgba(180,232,192, 1),
+    rgba(179,229,197, 1),
+    rgba(178,228,199, .9),
+    rgba(178,227,204, .9),
+    rgba(178,223,210, .8),
+    rgba(178,224,206, .6),
+    rgba(180,232,192, 0));
+}
+
+.box {
+    border-radius: 0.2rem;
+    padding: 15px;
+    background-clip: border-box;
+    background-image: linear-gradient(to left,
+    rgba(180,232,192, 1),
+    rgba(179,229,197, 1),
+    rgba(178,228,199, .9),
+    rgba(178,227,204, .9),
+    rgba(178,223,210, .8),
+    rgba(178,224,206, .6),
+    rgba(180,232,192, 0));
+    /* background-image: linear-gradient(to right, #ADDAE0, rgb(255, 255, 255)); */
+}
+
+.heading {
+    font-weight: 700;
+    padding-left: 1.7em;
+}
+
+
+.simple {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2em !important;
+}
+
